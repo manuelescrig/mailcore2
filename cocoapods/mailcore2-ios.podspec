@@ -7,6 +7,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "BSD", :file => "LICENSE" }
   spec.author       = "MailCore Authors"
   spec.platform     = :ios, "8.0"
+  spec.watchos.deployment_target = '3.0'
   spec.source       = { :http => "https://d.etpan.org/mailcore2-deps/mailcore2-ios/mailcore2-ios-12.zip", :flatten => true }
   spec.header_dir   = "MailCore"
   spec.requires_arc = false
